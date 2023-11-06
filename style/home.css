@@ -1,0 +1,70 @@
+/*Color palette:
+    Orange: #DB8400
+    Blue grey: #597F9C
+    Blue: #469BDB
+    Brown: #877458
+    Dark grey: #4B555C*/
+
+header {
+    width: 100%;
+    background-color: #DB8400;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.site-logo,
+.navigation,
+header,
+.content-container {
+    display: flex;
+}
+
+.navigation {
+    align-items: center;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 50px;
+    font-family: "Libre Baskerville", sans-serif;
+    color: #597F9C;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../images/pexels-marko-obrvan-306344.jpg");
+    background-size: cover;
+}
+.content-container {
+    margin: 120px;
+    text-align: center;
+}
+
+p,
+h1 {
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    font-family: "Musica", sans-serif;
+    text-align: justify-all;
+}
+
+#content {
+    width: 30%;
+}
+
+
+

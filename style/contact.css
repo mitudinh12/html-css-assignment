@@ -1,0 +1,75 @@
+header {
+    width: 100%;
+    background-color: #DB8400;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.site-logo,
+.navigation,
+header,
+.main-content,
+.text,
+.map {
+    display: flex;
+}
+
+.navigation {
+    align-items: center;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 50px;
+    font-family: "Libre Baskerville", sans-serif;
+    color: #597F9C;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../images/pexels-marko-obrvan-306344.jpg");
+    background-size: cover;
+}
+
+.main-content {
+    top: 120px;
+    /*border: solid 3px white;*/
+    position: relative;
+    justify-content: space-around;
+}
+
+.text {
+    position: relative;
+    flex-direction: column;
+}
+
+.map {
+    position: relative;
+    /*border: solid 3px yellow;*/
+    padding: 30px;
+}
+
+h3,
+address {
+    color: aliceblue;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+address {
+    font-size: 30px;
+}
+
+#map-image {
+    /*width: 100%;*/
+}
